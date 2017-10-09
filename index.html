@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div id="first"></div>
+<div id="two"></div>
+<script src="min/all.js"></script>
+<script>
+    var div1=document.getElementById("first");
+    var div2=document.getElementById("two");
+    var arr=[1,1,1,1,4,5,5,5,6,7,8,8]
+    var newarr1=Q(arr);
+    div1.innerHTML="<h1>第一种方法：</h1>" +
+            "<p>去重后的数组是</p>"+newarr1
+    var arr1=[1,1,4,4,4,4,4,5,5,5,6,6,6,1,1,2,3];
+    var newarr2=Q1(arr1);
+    div2.innerHTML="<h1>第二种方法：</h1>" +
+            "<p>去重后的数组是</p>"+newarr2
+</script>
+</body>
+</html>
