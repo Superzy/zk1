@@ -1,1 +1,1 @@
-function Q(n){for(var r=[],t=0;t<n.length;t++)-1==r.indexOf(n[t])&&r.push(n[t]);return r}function Q1(n){for(var r=[],n=n.sort(),t=0;t<n.length-1;t++){var e=n.lastIndexOf(n[t]);r.push(n[e])}return r}
+function Q(n){for(var r=[],e=0;e<n.length;e++)-1==r.indexOf(n[e])&&r.push(n[e]);return r}function Q2(n){for(var r=[n[0]],e=1;e<n.length;e++)n.indexOf(n[e])==e&&r.push(n[e]);return r}
